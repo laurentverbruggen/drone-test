@@ -1,9 +1,6 @@
 pipeline:
   build:
-    image: alpine
+    image: golang
     commands:
       - echo "hello world"
-    when:
-      branch: master
 
-      
